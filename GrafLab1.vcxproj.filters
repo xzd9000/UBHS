@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\UBHS">
+      <UniqueIdentifier>{24696d1d-72fb-40e1-b6f7-26ef7413e062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\UBHS\OpenGL">
+      <UniqueIdentifier>{69a5c6a2-3207-4650-9b38-fc8f273672ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\UBHS">
+      <UniqueIdentifier>{4fd4d9a2-5bc3-4e3e-9871-e58ee8cdfb2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBox.cpp">
+      <Filter>Исходные файлы\UBHS</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders.cpp">
+      <Filter>Исходные файлы\UBHS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Исходные файлы\UBHS</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Исходные файлы\UBHS</Filter>
+    </ClCompile>
+    <ClCompile Include="UBHS_Core.cpp">
+      <Filter>Исходные файлы\UBHS</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityList.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Исходные файлы\UBHS\OpenGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="EventQueue.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualTargetedMovement.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementController.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovement.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNPCMovement.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMovement.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticEntity.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="UBHS_Core.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="UBHS_Definitions.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackController.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackTime.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackAction.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Файлы заголовков\UBHS</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Исходные файлы\UBHS\OpenGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glfw3.lib">
+      <Filter>Исходные файлы\UBHS\OpenGL</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
